@@ -38,7 +38,7 @@ function setup() {
   somFundo.setVolume(0.5); 
 
   introdução = createSprite(500,350,1000, 700);
-  introdução = addImage(introduçãoImg)
+  introdução.addImage(introduçãoImg)
   introdução.visible = true;
 
   modulo = createSprite(250,50,30,30);
